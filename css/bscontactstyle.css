@@ -1,5 +1,8 @@
 body {
     background-image: url("../images/subtle_white_feathers.png");   
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 h1 {
     background: #439692;
@@ -25,51 +28,12 @@ h1 {
     font-size: 20px;
     border-width: 5px;
 }
-
-.content {
-    width:960px;
-    line-height: 1.8;
-    margin: 0 auto 0 auto;
-    padding: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: black;
-    border-style: solid;
-    border-color: white;
-    background-color: white;
-    text-align: auto;
-
-}
-
-/*.card {
-    display: inline-block;
-    width: 300px;
-    height: 200px;
-    position: relative;
-    padding: 20px;
-    margin: 0px;
-
-}
-*/
-.card-label {
-    clear: both;
-    width: 447px;
-    background-color: #439692;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    padding: 10px;
-    text-align: center;
-    bottom: 0;
-
-}
-
 h2 {
     color: #439692;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* .container {
+.container {
     width:960px;
     line-height: 2;
     margin: 0 auto 0 auto;
@@ -85,37 +49,59 @@ h2 {
     margin-bottom: 20px;
     resize: vertical;
 
-} */
-
-#hangman {
-    min-width: auto;
-    max-width: auto;
 }
 
-#RPGGame {
-    min-width: auto;
-    max-width: auto;
+#name {
+    width: 100%;
+    padding:2%;
+    border: solid;
+    border-color: rgb(223, 221, 221);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: unset;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#triviagame {
-    min-width: auto;
-    max-width: auto;
+#email {
+    width: 100%;
+    padding:2%;
+    border: solid;
+    border-color: rgb(223, 221, 221);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: unset;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#infowidget {
-    min-width: auto;
-    max-width: auto;
+#message {
+    width: 100%;
+    padding:2%;
+    border: solid;
+    border-color: rgb(223, 221, 221);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: unset;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#rockpaperscissors {
-    min-width: auto;
-    max-width: auto;
-}
-
-
+input[type=submit]{
+    background-color: #439692;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 0px;
+} 
 
 .backfooter {
-    clear: both;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
     background-color: #439692;
     position: relative;
     z-index: 1;
@@ -125,20 +111,17 @@ h2 {
     left: 0;
 }
 .footer {
-    clear: both;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
     background-color: rgb(86, 86, 86);
     position: relative;
     z-index: 2;
-    width: 100%; 
+    width: 100%;
     height: 100px;
     top: -60px;
     left: 0;
 
     color: white;
     text-align: center;
-}
-
-.footercontainer {
-    min-width: auto;
-    max-width: auto;
 }

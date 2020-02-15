@@ -3,43 +3,53 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <!--Link to stylesheet-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="bsportfoliostyle.css">
+        <link rel="stylesheet" href="css/bsportfoliostyle.css">
     </head>
 
     <body>
-        <!--Fana Bootstrap Nav Bar-->
+        <header>
+        <!--Bootstrap Nav Bar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Christine</a>
+            <a class="navbar-brand" href="#">Christine Dang</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+             
+                <span class="navbar-toggler-icon"></span>
+
             </button>
-          
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    contact
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Drop Down
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="index.html">About</a>
+                    <a class="dropdown-item" href="portfolio.html">Portfolio</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="contact.html">Contact</a>
                   </div>
                 </li>
+                
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Fanta</a>
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
+            
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -47,9 +57,6 @@
               </form>
             </div>
           </nav>
-        <!--Top & nav bar-->
-        <header>
-
         </header>
         <br>
 
@@ -61,40 +68,40 @@
                 <div class="container">
                     <div class="row row-cols-2">
                     <!--Hangman Card-->
-                    <div class="col">
+                        <div class="col">
 
-                        <img src="images/technics.jpg" alt="hangman" id="hangman">
-                        <div class="card-label">Hangman</div>
+                            <img src="images/technics.jpg" alt="hangman" id="hangman">
+                            <div class="card-label">Hangman</div>
 
-                    </div>
-                      <div class="col">
-                            <!--RPG Game Card-->
+                        </div>
+                        <div class="col">
+                                <!--RPG Game Card-->
 
-                                <img src="images/mixer.jpg" alt="RPG Game" id="RPGGame">
-                                <div class="card-label">RPG Game</div>
+                                    <img src="images/mixer.jpg" alt="RPG Game" id="RPGGame">
+                                    <div class="card-label">RPG Game</div>
 
-                    </div>
-                      <div class="col">
-                        <!--Trivia Game Card-->
+                        </div>
+                        <div class="col">
+                            <!--Trivia Game Card-->
 
-                            <img src="images/earbuds.jpg" alt="trivia game" id="triviagame">
-                            <div class="card-label">Trivia Game</div>
+                                <img src="images/earbuds.jpg" alt="trivia game" id="triviagame">
+                                <div class="card-label">Trivia Game</div>
 
-                      </div>
-                      <div class="col">
-                            <!--Rutgers Info Widget Card-->
+                        </div>
+                        <div class="col">
+                                <!--Rutgers Info Widget Card-->
 
-                                <img src="images/phone.jpg" alt="rutgers info widget" id="infowidget">
-                                <div class="card-label">Rutgers Info Widget</div>
+                                    <img src="images/phone.jpg" alt="rutgers info widget" id="infowidget">
+                                    <div class="card-label">Rutgers Info Widget</div>
 
-                      </div>
-                         <div class="col">
-                        <!--Rock Paper Scissors Card-->
+                        </div>
+                            <div class="col">
+                            <!--Rock Paper Scissors Card-->
 
-                            <img src="images/screen.jpg" alt="rock paper scissors" id="rockpaperscissors">
-                            <div class="card-label">Rock Paper Scissors</div>
+                                <img src="images/screen.jpg" alt="rock paper scissors" id="rockpaperscissors">
+                                <div class="card-label">Rock Paper Scissors</div>
 
-                </div>
+                        </div>
                     </div>
                 </div>
 

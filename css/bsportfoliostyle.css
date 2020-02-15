@@ -1,5 +1,8 @@
 body {
     background-image: url("../images/subtle_white_feathers.png");   
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 h1 {
     background: #439692;
@@ -41,19 +44,21 @@ h1 {
 
 }
 
-/*.card {
+.card {
     display: inline-block;
     width: 300px;
     height: 200px;
     position: relative;
     padding: 20px;
     margin: 0px;
+    z-index: 1;
 
 }
-*/
+
 .card-label {
     clear: both;
     width: 447px;
+
     background-color: #439692;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +66,7 @@ h1 {
     padding: 10px;
     text-align: center;
     bottom: 0;
+    z-index: 2;
 
 }
 
@@ -71,6 +77,7 @@ h2 {
 
 /* .container {
     width:960px;
+    width: auto;
     line-height: 2;
     margin: 0 auto 0 auto;
     padding: 12px;
@@ -88,57 +95,56 @@ h2 {
 } */
 
 #hangman {
-    min-width: auto;
-    max-width: auto;
+    width: inherit;
 }
 
 #RPGGame {
-    min-width: auto;
-    max-width: auto;
+    width: inherit;
 }
 
 #triviagame {
-    min-width: auto;
-    max-width: auto;
+    width: inherit;
 }
 
 #infowidget {
-    min-width: auto;
-    max-width: auto;
+    width: inherit;
 }
 
 #rockpaperscissors {
-    min-width: auto;
-    max-width: auto;
+    width: inherit;
+
 }
 
-
-
 .backfooter {
-    clear: both;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+
     background-color: #439692;
     position: relative;
     z-index: 1;
-    width:100%;
+    min-width:auto;
+    max-width: auto;
     height:70px;
     top:-0px;
     left: 0;
 }
 .footer {
-    clear: both;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+
     background-color: rgb(86, 86, 86);
     position: relative;
     z-index: 2;
-    width: 100%; 
-    height: 100px;
+    min-width:auto;
+    max-width: auto;
+    height: auto;
     top: -60px;
     left: 0;
 
     color: white;
     text-align: center;
-}
-
-.footercontainer {
-    min-width: auto;
-    max-width: auto;
 }
