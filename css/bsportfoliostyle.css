@@ -44,7 +44,8 @@ h1 {
 
 }
 
-.card {
+ /* Non-Bootstrap version
+    .card {
     display: inline-block;
     width: 300px;
     height: 200px;
@@ -52,13 +53,12 @@ h1 {
     padding: 20px;
     margin: 0px;
     z-index: 1;
+} 
 
-}
-
-.card-label {
+ .card-label {
     clear: both;
-    width: 447px;
-
+    width: 447px; 
+    column-width: initial;
     background-color: #439692;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -67,32 +67,33 @@ h1 {
     text-align: center;
     bottom: 0;
     z-index: 2;
+} */
 
+.card-text {
+    width: inherit;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: #439692;
+    border: 0;
+    text-align: center;
+    color: white;
+    padding: 7px;
 }
+
 
 h2 {
     color: #439692;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-/* .container {
-    width:960px;
-    width: auto;
-    line-height: 2;
-    margin: 0 auto 0 auto;
-    padding: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+/* Fit 100% within any size screen, but after refresh without changing any code, it changed back  */
+.container {
     color: black;
     border-style: solid;
     border-color: white;
     background-color: white;
-    text-align: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    resize: vertical;
+}
 
-} */
 
 #hangman {
     width: inherit;
