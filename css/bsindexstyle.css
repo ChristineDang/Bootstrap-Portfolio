@@ -87,6 +87,13 @@ h2 {
     margin-right: auto;
 }
 
+.pdf {
+    float: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer {
     grid-row-start: 2;
     grid-row-end: 3;
