@@ -51,6 +51,11 @@ h2 {
 
 }
 
+.info {
+    text-align: center;
+    float: center;
+}
+
 #name {
     width: 100%;
     padding:2%;
