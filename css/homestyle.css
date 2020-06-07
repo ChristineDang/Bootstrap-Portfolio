@@ -6,6 +6,10 @@ body {
     
 }
 
+.carousel-inner > .carousel-item {
+    height: 650px;
+}
+
 h1 {
     background: #202020;
     position: absolute;
@@ -19,6 +23,9 @@ h1 {
     color: white;
     margin-left: 400px;
 
+}
+#mission {
+    text-align: center;
 }
 
 .topnav {
@@ -51,21 +58,6 @@ h2 {
     float: left;
 
 }
-#content {
-    max-width: 1000px;
-    min-width: auto;
-    line-height: 1.8;
-    margin:  auto auto;
-    padding: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    /* color: black;
-    border-style: solid; */
-    /* border-color: white;
-    background-color: white; */
-    text-align: auto;
-
-}
 
 
 .column {
@@ -74,11 +66,3 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
-.pdf {
-    float: left;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
