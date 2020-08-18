@@ -67,6 +67,18 @@ h2 {
 
 }
 
+.title {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#lists {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
 
 .column {
     float: left;
@@ -82,3 +94,17 @@ h2 {
     margin-right: auto;
 }
 
+.lottie {
+padding-left: 32%;
+padding-right: 20%;
+}
+
+#plant {
+    padding-top: 10%;
+}
+
+#fact {
+    border: #202020;
+    border-style: double;
+    padding: 1%;
+}
