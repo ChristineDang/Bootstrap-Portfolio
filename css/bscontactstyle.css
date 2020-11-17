@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/subtle_white_feathers.png");   
+    background-color: rgb(249, 249, 249);
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;

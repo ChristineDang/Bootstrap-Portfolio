@@ -1,35 +1,85 @@
-body {
-    background-image: url("../images/subtle_white_feathers.png");
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    
+/* @media screen and (max-device-height: 0px) { */
+    html body {
+        /* background-image: url("../images/subtle_white_feathers.png"); */
+        background-color: rgb(249, 249, 249);
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        /* display: grid;
+        grid-template-rows: 1fr auto; */
+        
+    }
+/* } */
+
+/* .carousel-inner > .carousel-item {
+    height: 75%;
+} */
+
+.parallax {
+    background-image: url('../images/HomepageBkgrnd1.jpg');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
 }
 
-.carousel-inner > .carousel-item {
-    height: 650px;
-}
 
-h1 {
-    background: #202020;
+.btn {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+/* #square {
+    position: fixed;
+} */
+
+/* h1 {
+    /* background: #202020; */
+    /* position: absolute;
     padding: 40px;
     text-align: center;
     margin: 0;
     top: 0;
     left: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-size: 30px;
     color: white;
     margin-left: 400px;
 
-}
-#mission {
-    text-align: center;
+} */
+
+#cog {
+    padding-left: 10%; 
+
+    margin: 2%;
 }
 
-#audio {
-    
+#mission {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#statement {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .topnav {
@@ -48,7 +98,12 @@ h1 {
 h2 {
     color: #202020;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
 
 .profilepic {
@@ -63,6 +118,19 @@ h2 {
 
 }
 
+#gap {
+    height: 200px;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+/* #aboutme {
+    margin-top: 5%;
+    padding-bottom: 5%;
+} */
 
 .column {
     float: left;

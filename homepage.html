@@ -9,28 +9,28 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/homestyle.css">  
-            
+        <link rel="stylesheet" type="text/css" href="css/bsindexstyle.css">     
 
     </head>
     <body>
         <header>
          <!--Bootstrap Nav Bar-->
-         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="homepage.html">Christine Dang</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item active">
+              <!-- <li class="nav-item active">
                 <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
-              </li>
+              </li> -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About
+                <a class="nav-link dropdown-toggle" href="homepage.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Home
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="index.html">About Me</a>
+                  <a class="dropdown-item" href="#aboutme">About Me</a>
                   <a class="dropdown-item" href="contact.html">Contact</a>
                   <a class="dropdown-item" href="resume.html">Resume</a>
                 </div>
@@ -88,14 +88,14 @@
           </nav>
         </header>
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100 h-10" src="Images/brain.jpg" alt="First slide">
+              <img class="d-block w-100" src="Images/brain.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="Images/coding.jpg" alt="Second slide">
+              <img class="d-block w-100" src="Images/coding2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="Images/entrepreneur.jpg" alt="Third slide">
@@ -110,34 +110,171 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
-<br>
-        <div class="row">
-            <!--Introduction-->
+        </div> -->
 
 
+        <div class="parallax">
+          <div class="container">
 
-            <div class="col-md-12">
-                  <h2>Mission Statement:</h2>
-                  <hr>
+          <!-- <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3" id="square">
+              <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gBtbIS.json"  
+              background="transparent"  speed="1"  style="width: 300px; height: 300px;"  
+              loop autoplay></lottie-player>
             </div>
-          </div>
 
-          <div class="row d-flex justify-content-center text-center">
-            <br>
-              <div class="col-md-4">
-                <p id="mission">To combine my professional experience in business management, entrepreneurship, and web development, with a touch of creativity, to bring you
-                      the most unique, dynamic, and forward thinking product.
-                </p>
-              </div> 
-          </div>        
-      
-          <br>
+          </div>   -->
+          <div class="row">
+            <!-- <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div> -->
+              <div class="col-md-3">
+                <button class="btn">Button</button>
+              </div>
+
+          </div>  
+        </div>
+          
+
+
+
+        </div>
+            <!-- <div style="height: 100%; background-color: rgb(255, 255, 255, 0.85);"> -->
+              <div class="row" id="statement">
+                  <!--Introduction-->
+
+                <div class="col-md-4" id="cog">
+                  <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_dVjyU3.json"  
+                  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  
+                  loop autoplay></lottie-player>
+                </div>
+                
+
+                  <div class="col-md-4" id="fact">
+                    <br>
+                        <h2 id="mission">Mission Statement:</h2>
+                        <!-- <hr> -->
+                        <br>
+                        <p id="mission">To combine my professional experience in business management, entrepreneurship, and web development, with a touch of creativity, to bring you
+                          the most unique, dynamic, and forward thinking product.
+                    </p>
+                  </div>
+
+                  <div class="col-md-4"></div>
+                </div>
+
+                <!-- <div class="row d-flex justify-content-center text-center">
+                  <br>
+                    <div class="col-md-4">
+                      <p id="mission">To combine my professional experience in business management, entrepreneurship, and web development, with a touch of creativity, to bring you
+                            the most unique, dynamic, and forward thinking product.
+                      </p>
+                      <br>
+                    </div>  -->
+              <!-- </div> -->
+            </div>        
+          
+              <br>
 
       <div class="row">
         <div class="col-md-3">
         </div>
       </div>
+
+      <br>
+      <br>
+      <!-- <div style="height: 100%; background-color: rgb(255, 255, 255, 0.85);"> -->
+  <div class="container" id="aboutme">
+
+    <div class="row">
+      <div class="col-md-12">
+        <section id="content">
+            
+            <h2>About Me</h2>
+            <hr>
+            <br>
+            <div class="col-md-12">
+              <p><img src="Images/Profile_pic_friendly_00001.jpg" alt="profilepic" class="profilepic"> My name is Christine Dang and I am from Tampa, Florida. 
+                I am a full stack web developer and a graphic illustrator with a business acumen.</p>
+              
+              <p>After graduating from the University of Florida with a degree in Business Innovation and Sociology,
+                I took 2 years off and worked as the regional manager for Sweet Buns Bakery, LLC (Gainesville and Tampa) all while 
+                managing their social media and their sister restaurant's 7 chain 
+                customer care service as a board member.</p>
+
+              <p>I also volunteered at UF's Neurosurgery lab and Pediatric Physical Therapy clinic, took graduation photos for students, and bartended 
+              wedding events during this time.</p>
+            </div>
+        </section>    
+      </div>
+
+      <div class="row" id="lists">
+            <div class="col-md-4">
+              <section id="content">
+              <p class="title"> Technologies:</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>MERN Stack</li>
+                <li>MySQL</li>
+                <li>jQuery</li>
+                <li>Photoshop</li>
+                <li>Heroku</li>
+                <li>Git</li>
+                <li>User Authentication</li>
+                <li>Responsive design</li>
+              </ul>
+            </section>
+            </div>
+
+            <div class="col-md-4">
+              <section id="content">
+              <p class="title">Current Projects:</p>
+              <ul>
+                <li>Creating dynamic websites for clients</li>
+                <li>Graphic illustrations for Twitch streamers</li>
+              </ul>
+              </section>
+            </div>
+          <div class="col-md-4" id="plant">
+            <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_hKSrGc.json"  
+            background="transparent"  speed="1"  style="width: 300px; height: 300px;"  
+            loop autoplay></lottie-player>
+          </div>
+      </div>      
+
+
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12" id="fact">
+          <br>
+          <p class="title">Fun Fact:</p>
+          <p>When H&M released their Erdem collection in October of 2017, their unique parallax 
+            and dynamic website was the major inspiration and what sparked my interest in full 
+            stack web development.</p>
+      </div>
+    </div> 
+  </div>
+
+
+</section>
+<!-- </div> -->
+  <br>
+  <br>
+
+
+
+
+
+
+
+
+
         
 <!-- Footer -->
 <footer class="page-footer font-small indigo">
@@ -220,6 +357,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </html>
 
