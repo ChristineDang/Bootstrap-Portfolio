@@ -17,7 +17,7 @@
     height: 75%;
 } */
 
-.parallax {
+.topImg {
     background-image: url('../images/HomepageBkgrnd1.jpg');
     min-height: 800px;
     background-attachment: fixed;
