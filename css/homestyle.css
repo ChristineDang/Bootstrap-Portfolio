@@ -27,7 +27,23 @@
     background-position-x: center;
 }
 
+#introButtons {
+    text-align: center;
+    align-items: center;
+}
 
+.btn {
+    border: none;
+    background-color: rgb(0, 170, 227);
+    padding: 20px, 35px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width: max-content;
+    margin: 10%;
+    position: relative;
+    left: 50%;
+}
 /* h1 {
     /* background: #202020; */
     /* position: absolute;
