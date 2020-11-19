@@ -124,6 +124,12 @@ html {
     padding-bottom: 5%;
 } */
 
+.florida {
+    width: 50%;
+    height: 100%;
+    position: relative;
+
+
 .column {
     float: left;
     padding: 5px;
