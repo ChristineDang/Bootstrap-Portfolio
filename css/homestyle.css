@@ -18,7 +18,7 @@
 } */
 
 .topImg {
-    background-image: url('../Images/HomepageBkgrnd1.jpg');
+    background-image: url('./Images/HomepageBkgrnd1.jpg');
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
