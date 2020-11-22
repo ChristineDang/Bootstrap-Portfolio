@@ -18,13 +18,12 @@
 //         setInterval;(displayNextImage, 3000);
 //     }
 
-var p = new Parallax('.parallax', {
-    offsetYBounds: 50,
-    intensity: 30,
-    center: 0.5,
-    safeHeight: 0.15
-  }).init()
 
-  p.on('element:loaded', function(element){
-    // do something with the element
-  })
+  $(window).on('scroll', function() {
+    var header = $(".header");
+    if ($(this).scrollTop() > 50) {
+        if (!header.data('faded')) header.data('faded', 1).stop(true).fadeTo(400, 0.5);
+    } else if (header.data('faded')) {
+        header.data('faded', 0).stop(true).fadeTo(400, 1);
+    }
+});
