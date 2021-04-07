@@ -51,15 +51,15 @@ html body {
 } */
 
 #wolf {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     position: relative;
     padding: 10%;
 }
 
 #sven {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     position: relative;
     padding: 10%;
 }
@@ -131,4 +131,11 @@ html body {
     position: center;
     margin-left: 30%;
     box-shadow: 4px 4px #88888839;
+}
+
+#oi {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 10%;
 }
