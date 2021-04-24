@@ -16,77 +16,80 @@
     </head>
     <body>
       <header>
-        <!--Bootstrap Nav Bar-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-         <a class="navbar-brand" href="../index.html">Christine Dang</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-           <ul class="navbar-nav">
-             <li class="nav-item active">
-               <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 About
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                 <a class="dropdown-item" href="index.html">About Me</a>
-                 <a class="dropdown-item" href="contact.html">Contact</a>
-                 <a class="dropdown-item" href="resume.html">Resume</a>
-               </div>
-             </li>
+       <!--Bootstrap Nav Bar-->
+       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">Christine Dang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li>
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#statement">Mission Statement</a>
+                <a class="dropdown-item" href="#aboutme">About Me</a>
+                <a class="dropdown-item" href="#contact">Contact</a>
+                <a class="dropdown-item" href="resume.html">Resume</a>
+              </div> -->
+            <!-- </li> -->
 
-             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 Deployed Projects
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                 <a class="dropdown-item" href="https://christinedang.github.io/Word-Guess-Game/">Hangman</a>
-                 <a class="dropdown-item" href="https://christinedang.github.io/Unit-4-Game/">Crystals Collector Game</a>
-                 <a class="dropdown-item" href="https://christinedang.github.io/TriviaGame/">Trivia Game</a>
-                 <a class="dropdown-item" href="https://christinedang.github.io/GifTastic/">GifTastic</a>
-                 <a class="dropdown-item" href="https://christinedang.github.io/TrainScheduler/">Train Scheduler</a>
-                 <a class="dropdown-item" href="https://odincogaming.github.io/Meme-Generator/">Meme Generator Group Project</a>
-                 <a class="dropdown-item" href="https://christinedang.github.io/liri-node-app/">Liri Node App</a>
-                 <a class="dropdown-item" href="https://christinedang.github.io/Bamazon-Marketplace/">Bamazon Marketplace</a>
-                 <a class="dropdown-item" href="https://pure-earth-88052.herokuapp.com/">Friend Finder</a>
-                 <a class="dropdown-item" href="https://polar-springs-84211.herokuapp.com/burgers">Eat The Burger App</a>
-                 <a class="dropdown-item" href="https://vast-beyond-12736.herokuapp.com/">Gov. Unemployment App</a>
-                 <a class="dropdown-item" href="https://git.heroku.com/radiant-headland-60194.git">The Wall Street Journal Article Scraper</a>
-                 <a class="dropdown-item" href="https://young-fjord-48041.herokuapp.com/">Once Upon A React.JS Clicky Game</a>
-                 <a class="dropdown-item" href="https://royal-canoe-40441.herokuapp.com">Google Books Search</a>
-                 <a class="dropdown-item" href="https://homecooks101.herokuapp.com/">GHome-cooks</a>
-                 
-               </div>
-             </li>
-             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 Project's codes
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/Word-Guess-Game">Hangman</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/Unit-4-Game">Crystals Collector Game</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/TriviaGame">Trivia Game</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/GifTastic">GifTastic</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/TrainScheduler">Train Scheduler</a>
-                 <a class="dropdown-item" href="https://github.com/OdincoGaming/Meme-Generator">Meme Generator Group Project</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/liri-node-app">Liri Node App</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/Bamazon-Marketplace">Bamazon Marketplace</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/Friend-Finder">Friend Finder</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/burger">Eat The Burger App</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/group-project-2">Gov. Unemployment App</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/Web-Scraping">The Wall Street Journal Article Scraper</a>
-                 <a class="dropdown-item" href=" https://github.com/ChristineDang/clicky-game">Once Upon A React.JS Clicky Game</a>
-                 <a class="dropdown-item" href="https://github.com/ChristineDang/Google-books-search">Google Books Search</a>
-                 <a class="dropdown-item" href="https://github.com/MikeVong/group-project-3">Home-cooks</a>
-               </div> 
-             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Deployed Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://christinedang.github.io/Word-Guess-Game/">Hangman</a>
+                <a class="dropdown-item" href="https://christinedang.github.io/Unit-4-Game/">Crystals Collector Game</a>
+                <a class="dropdown-item" href="https://christinedang.github.io/TriviaGame/">Trivia Game</a>
+                <a class="dropdown-item" href="https://christinedang.github.io/GifTastic/">GifTastic</a>
+                <a class="dropdown-item" href="https://christinedang.github.io/TrainScheduler/">Train Scheduler</a>
+                <a class="dropdown-item" href="https://odincogaming.github.io/Meme-Generator/">Meme Generator Group Project</a>
+                <a class="dropdown-item" href="https://christinedang.github.io/liri-node-app/">Liri Node App</a>
+                <a class="dropdown-item" href="https://christinedang.github.io/Bamazon-Marketplace/">Bamazon Marketplace</a>
+                <a class="dropdown-item" href="https://pure-earth-88052.herokuapp.com/">Friend Finder</a>
+                <a class="dropdown-item" href="https://polar-springs-84211.herokuapp.com/burgers">Eat The Burger App</a>
+                <a class="dropdown-item" href="https://vast-beyond-12736.herokuapp.com/">Gov. Unemployment App</a>
+                <a class="dropdown-item" href="https://git.heroku.com/radiant-headland-60194.git">The Wall Street Journal Article Scraper</a>
+                <a class="dropdown-item" href="https://young-fjord-48041.herokuapp.com/">Once Upon A React.JS Clicky Game</a>
+                <a class="dropdown-item" href="https://homecooks101.herokuapp.com/">Home-cooks</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project's codes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://github.com/ChristineDang/Word-Guess-Game">Hangman</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/Unit-4-Game">Crystals Collector Game</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/TriviaGame">Trivia Game</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/GifTastic">GifTastic</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/TrainScheduler">Train Scheduler</a>
+                <a class="dropdown-item" href="https://github.com/OdincoGaming/Meme-Generator">Meme Generator Group Project</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/liri-node-app">Liri Node App</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/Bamazon-Marketplace">Bamazon Marketplace</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/Friend-Finder">Friend Finder</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/burger">Eat The Burger App</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/group-project-2">Gov. Unemployment App</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/Web-Scraping">The Wall Street Journal Article Scraper</a>
+                <a class="dropdown-item" href=" https://github.com/ChristineDang/clicky-game">Once Upon A React.JS Clicky Game</a>
+                <a class="dropdown-item" href="https://github.com/ChristineDang/Google-books-search">Google Books Search</a>
+                <a class="dropdown-item" href="https://github.com/MikeVong/group-project-3">Home-cooks</a>
+              </div> 
+            </li>
 
-             <a class="nav-link" href="illustrations.html">Illustrations</a>
-           </ul>
-         </nav>
+          <li class="nav-item active">
+            <a class="nav-link" href="illustrations.html">Illustrations <span class="sr-only">(current)</span></a>
+          </li>
+          </ul>
+        </nav>
        </header>
 
     <!-- <section id="main"> -->
@@ -339,7 +342,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="https://www.linkedin.com/in/christine-dang-b842931a9">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/christine-dang-b842931a9" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -347,33 +350,33 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="https://github.com/ChristineDang">GitHub</a>
+          <a href="https://github.com/ChristineDang" target="_blank" rel="noopener noreferrer">GitHub</a>
         </h6>
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="index.html">About</a>
-        </h6>
-      </div>
+        <!-- <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="index.html">About</a>
+          </h6>
+        </div> -->
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="resume.html">Resume</a>
+          <a href="https://drive.google.com/file/d/1jGpH9P7U0n8_o8HXWZ64MHU9B0ufL56B/view" target="_blank" rel="noopener noreferrer">Resume</a>
         </h6>
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="contact.html">Contact</a>
-        </h6>
-      </div>
+        <!-- <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="contact.html">Contact</a>
+          </h6>
+        </div> -->
       <!-- Grid column -->
 
     </div>
