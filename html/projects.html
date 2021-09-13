@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Christine Dang</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" type="text/css" href="../css/homestyle.css">   -->
+        <link rel="stylesheet" type="text/css" href="../css/bsindexstyle.css">     
+    </head>
+
+    <body>
+        <div class="bkgrndImg"></div>
+        <header>
+            <!--Bootstrap Nav Bar-->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+             <a class="navbar-brand" href="../index.html">Christine Dang</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                 <!-- <li class="nav-item active">
+                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                 </li> -->
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Home
+                   </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="#statement">Mission Statement</a>
+                     <a class="dropdown-item" href="#aboutme">About Me</a>
+                     <a class="dropdown-item" href="#contact">Contact</a>
+                     <a class="dropdown-item" href="https://drive.google.com/file/d/1jGpH9P7U0n8_o8HXWZ64MHU9B0ufL56B/view" target="_blank" rel="noopener noreferrer">Resume</a>
+                   </div>
+                 </li>
+
+                 <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Web App Projects <span class="sr-only">(current)</span></a>
+                </li>
+   
+                 <a class="nav-link" href="./illustrations.html">Illustrations</a>
+   
+               </ul>
+             </nav>
+           </header>
+
+           <div class="spacing"></div>
+           <br>
+           <br>
+           <!-- <div class="container"> -->
+               <div class="row">
+                   <div class="col-md-6" id="contentTable">
+                    <h5>Table of Contents</h5>
+                    <p>Home-cooks</p>
+                    <p>Gov. Unemployment App</p>
+                    <p>Hangman</p>
+                    <p>Crystal Collector Game</p>
+                    <p>Once Upon a React.JS Clicky Game</p>
+                    <!-- <p>Trivia Game</p> -->
+                    <!-- <p>GifTastic</p> -->
+                    <!-- <p>Train Scheduler</p> -->
+                    <p>Meme Generator</p>
+                    <p>Liri Node App</p>
+                    <p>Bamazon Marketplace</p>
+                    <p>Friend Finder</p>
+                    <p>Eat The Burger App</p>
+
+                    <!-- <p>The Wall Street Journal Article Scraper</p> -->
+
+
+                   </div>
+
+                   <div class="col-md-6" id="projects">
+                        <h2 class="appTitles">Home-cooks</h2>
+                        <a class="links" href="https://homecooks101.herokuapp.com/">Deployed Link</a>
+                        <br>
+                        <a class="links" href="https://github.com/MikeVong/group-project-3">Project source code</a>
+                        <br>
+                        <img src="../appImages/Home-cooks.gif" class="responsive" width="900" height="500">
+                        <br>
+
+                        <p>With Covid-19 closing down a lot of restaurants and jobs in the U.S., people have lost their source of income and those who
+                            dine out often have been left with having to make their own meals.
+                            Here at Home-cooks, we have created a solution to feed the masses while starting up temporary jobs for anyone that knows 
+                            how to cook. Introducing the Home-Cooks website: where chefs can post dishes of their creations for anyone to purchase. 
+                            Just open up the webpage, select whether you are a cook or an eater. If you’ve selected Cooks, you will be asked to enter 
+                            in the dish information, time and date when it will be ready, where to meet, and the payment type of your preference. 
+                            If you’ve selected Eaters, you will be taken to the Google Maps page that displays all of the dishes in your area (with the 
+                            information the cooks have provided), and you can select the amount of portions that you would like.
+                            And there you have it! A solution that will create new jobs and bring back the ability for people to eat dishes made by others. </p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Gov. Unemployment App</h2>
+                            <a href="https://vast-beyond-12736.herokuapp.com/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/group-project-2">Project source code</a>
+                            <br>
+                            <img src="../appImages/unhacked2.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/unhacked3.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/unhacked.png" class="responsive" width="900" height="500">
+                            <br id="padding">
+                            <p>UnHacked Unemployment is a web app that speeds up your unemployment application process 
+                                by pre-checking your eligibility status within minutes 
+                                and giving you a thumbs up before you apply to your State's unemployment website. </p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Hangman</h2>
+                            <a href="https://christinedang.github.io/Word-Guess-Game/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/Word-Guess-Game">Project source code</a>
+                            <br>
+                            <img src="../appImages/hangman.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>Hangman is a game based on dog breeds. Each round is randomized with a set number of
+                                guesses. All of the users incorrect guesses are displayed under the dog breed section,
+                                and if the user presses any non-letter keys, an alert will pop up, telling the user to 
+                                select letter only keys. The rounds of wins and losses will keep increasing per round until 
+                                the user refreshes the page.
+                            </p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Crystal Collector Game</h2>
+                            <a href="https://christinedang.github.io/Unit-4-Game/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/Unit-4-Game">Project source code</a>
+                            <br>
+                            <img src="../appImages/crystal.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The Crystal Collector Game generates random numbers between the ranges of 1 - 9, And
+                                users must click each crystal, to add up the total to the randomly generated number
+                                above the crystals. The crystal's values are hidden, so users must remember their values
+                                when they click on them. The rounds of wins and losses will keep increasing per round until 
+                                until the user refreshes the page.
+                            </p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Once Upon a React.JS Clicky Game</h2>
+                            <a href="https://young-fjord-48041.herokuapp.com/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/clicky-game">Project source code</a>
+                            <br>
+                            <img src="../appImages/clickyGame.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The Clicky Game is a memory game created with React, where users must select each image 
+                                once within a deck of images. The theme of this game is from the show, Once Upon A Time 
+                                from ABC. Each character within the show has a dopleganger, where the same actors and 
+                                actresses play one character from our world and another from the Disney fairytale realm; 
+                                making this game a little trickier to play.
+                            </p>
+
+                        <!-- <h2 class="appTitles">Trivia Game</h2>
+                            <a href="https://christinedang.github.io/TriviaGame/">Deployed Link</a>
+                            <a href="https://github.com/ChristineDang/TriviaGame">Project source code</a>
+                            <p>Hangman is </p> -->
+
+                        <!-- <h2 class="appTitles">GifTastic</h2>
+                            <a href="https://christinedang.github.io/GifTastic/">Deployed Link</a>
+                            <a href="https://github.com/ChristineDang/GifTastic">Project source code</a>
+                            <p>Hangman is </p> -->
+
+                        <!-- <h2 class="appTitles">Train Scheduler</h2>
+                            <a href="https://christinedang.github.io/TrainScheduler/">Deployed Link</a>
+                            <a href="https://github.com/ChristineDang/TrainScheduler">Project source code</a>
+                            <p>Hangman is </p> -->
+                            
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Meme Generator</h2>
+                            <a href="https://odincogaming.github.io/Meme-Generator/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/OdincoGaming/Meme-Generator">Project source code</a>
+                            <br>
+                            <img src="../appImages/memeGen.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The Meme Generator is a web app that allows users to generate memes based on 
+                                what they enter in the search bar. It searches for the users entry and pulls 
+                                gifs and phrases from the Giphy API and Reddit API. Users can generate as many 
+                                times as they would like until they find the one they like.</p>
+
+                            <div class="spacing"></div>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Liri Node App</h2>
+                            <a href="https://christinedang.github.io/liri-node-app/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/liri-node-app">Project source code</a>
+                            <br>
+                            <img src="../appImages/liri.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/liri2.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/liri3.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The Liri Node App is a Language Interpretation and Recognition Interface, that allows 
+                                users to search for information on concerts, songs, and movies. It pulls out the main 
+                                information that users are looking for from the Spotify, Bands In Town, and OMDB, 
+                                omits any excess information, and gives it to them in one condensed location.</p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Bamazon Marketplace</h2>
+                            <a href="https://christinedang.github.io/Bamazon-Marketplace/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/Bamazon-Marketplace">Project source code</a>
+                            <br>
+                            <img src="../appImages/bamazon.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/bamazon1.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/bamazon3.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/bamazon4.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The Bamazon Marketplace is a CLI app that allows customers to purchase in-stock items and allows 
+                                managers to take care of inventory and add new products that are all located on a MySQL database.
+                                Click on the deployed link to learn more!</p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Friend Finder</h2>
+                            <a href="https://pure-earth-88052.herokuapp.com/">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/Friend-Finder">Project source code</a>
+                            <br>
+                            <img src="../appImages/friendfinder1.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/friendfinder2.png" class="responsive" width="900" height="500">
+                            <br>
+                            <img src="../appImages/friendfinder3.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The app consists of 4 JavaScript pages that hosts the server links and routes, along with 2 html pages 
+                                - one containing the home page, and the other containing the survey page. Within the survey.html document, 
+                                holds JavaScript code, which contains the actions for the submit button, saving the user's input, and posting 
+                                the returned friend match calculation (done on the apiRoutes.js document, within the "app.post" section) through a 
+                                modal. </p>
+
+                    <div id="padding"></div>
+
+                        <h2 class="appTitles">Eat The Burger App</h2>
+                            <a href="https://polar-springs-84211.herokuapp.com/burgers">Deployed Link</a>
+                            <br>
+                            <a href="https://github.com/ChristineDang/burger">Project source code</a>
+                            <br>
+                            <img src="../appImages/burger.png" class="responsive" width="900" height="500">
+                            <br>
+                            <p>The Burger app allows users to add burgers to the app's MySQL database (burger_db), then devouring the burgers.
+                                A manual ORM system was used to simplify the process of transferring information between the MySQL database into objects.
+                                The app consists of 6 main files (public, db, config, models, controllers, and views) that connects the MySQL database to the website. Rather than using 
+                                .html documents, .handlebars are used (main.handlebars & index.handlebars).
+                            </p>
+
+
+                        <!-- <h2 class="appTitles">The Wall Street Journal Article Scraper</h2>
+                            <a href="">Deployed Link</a>
+                            <br>
+                            <a href="">Project source code</a>
+                            <p>Hangman is </p> -->
+
+
+
+
+
+
+                    </div>
+               </div>
+               <!-- <div><h5>Table of Contents</h5></div>
+               <div><p>Hangman</p></div>
+               <div><p>Crystal Collector Game</p></div>
+               <div><p>Trivia Game</p></div>
+               <div><p>GifTastic</p></div>
+               <div><p>Train Scheduler</p></div>
+               <div><p>Meme Generator</p></div>
+               <div><p>Liri Node App</p></div>
+               <div><p>Bamazon Marketplace</p></div>
+               <div><p>Friend Finder</p></div>
+               <div><p>Eat The Burger App</p></div>
+               <div><p>Gov. Unemployment App</p></div>
+               <div><p>The Wall Street Journal Article Scraper</p></div>
+               <div><p>Once Upon a React.JS Clicky Game</p></div>
+               <div><p>Home-cooks</p></div> -->
+               
+           <!-- </div> -->
+           
+    </body>
+</html>
