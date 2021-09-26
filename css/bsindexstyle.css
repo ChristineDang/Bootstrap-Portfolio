@@ -3,7 +3,7 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-    
+    background-color: rgb(247, 247, 247);
 }
 
 h1 {
@@ -177,7 +177,7 @@ body {
 
   .bkgrndImg {
     background-image: url("../images/whitepattern.jpg");
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(124, 124, 124);
     background-attachment: fixed;
     height: 100%;
     width: 100%;
@@ -186,4 +186,18 @@ body {
     overflow-x: hidden;
     display: grid;
     grid-template-rows: 1fr auto;
+  }
+
+  form {
+      float: left;
+      /* padding: 2%; */
+      align-content: center;
+
+  }
+
+  input {
+    background-color: rgb(110, 202, 255);
+    border-radius: 25px;
+    border-color: rgb(110, 202, 255);
+    /* color: white; */
   }
