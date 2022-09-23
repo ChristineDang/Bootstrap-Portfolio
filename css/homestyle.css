@@ -157,3 +157,7 @@ html {
       padding-top: 0px;
     }
   } */
+
+  img {
+    pointer-events: none;
+}

@@ -10,3 +10,7 @@ html body {
     /* background-size: contain; */
     background-position-x: center;
 }
+
+img {
+    pointer-events: none;
+}

@@ -201,3 +201,7 @@ body {
     border-color: rgb(110, 202, 255);
     /* color: white; */
   }
+
+  img {
+    pointer-events: none;
+}
