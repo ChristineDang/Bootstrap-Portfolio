@@ -38,3 +38,7 @@ html body {
 #comingSoon {
     text-align: center;
 }
+
+img {
+    pointer-events: none;
+}
