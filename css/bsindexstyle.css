@@ -27,7 +27,6 @@ h1 {
     padding: 40px;
     text-align: right;
     word-spacing: 30px;
-    
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     border-width: 5px;
@@ -99,20 +98,20 @@ li {
     margin-top: 5%;
 }
 
-.lottie {
+/* .lottie {
 padding-left: 32%;
 padding-right: 20%;
-}
+} */
 
 /* #plant {
     padding-top: 5%;
 } */
 
-#fact {
+/* #fact {
     border: #202020;
     border-style: double;
     padding: 1%;
-}
+} */
 
 #resume {
     display: block;
@@ -135,19 +134,30 @@ body {
       padding-left: 10%;
       width: 24%;
       float: left;
+      /* position: fixed;
       margin-right: 5px;
       min-height: 50px;
-      position: fixed;
+      overflow: auto; */
+/* 
+    background-color: #f1f1f1;
+    position: sticky; */
+
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
   }
 
   #projects {
     min-height: 1000px;
-
     /* margin-right: 5px; */
     overflow: auto;
-
     position: absolute;
     left: 28.5%;
+
+
+    gap: 2rem;
   }
 
   .appTitles {
