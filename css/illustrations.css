@@ -28,7 +28,7 @@ html body {
 
 #title {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 64px;
     font-weight: bolder;
     padding-top: 15%;
@@ -80,7 +80,7 @@ img {
 
 #phases {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
     font-weight: bolder;
     padding-top: 10%;
@@ -89,8 +89,8 @@ img {
 
 #description {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
     /* font-weight: bolder; */
     /* padding-top: 10%; */
     padding-bottom: 2%;
@@ -98,15 +98,15 @@ img {
 
 #subtext {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     font-weight: bold;
 }
 
 #technologiesUsed {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
     padding-bottom: 2%;
 }
 
@@ -115,3 +115,55 @@ img {
     /* padding-left: 5%;
     padding-right: 5%; */
 }
+
+.ProcessImg {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.ProcessImgResearch {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+ }
+
+ .ProcessImgResearch2 {
+    display: block;
+    margin-right: auto;
+    width: 50%;
+ }
+
+ .ProcessImgDesign {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+ }
+
+ .ProcessImgDesign2 {
+    display: block;
+    width: 100%;
+ }
+ 
+ .ProcessImgDesign3 {
+    display: block;
+    margin-right: auto;
+    width: 100%;
+ }
+
+ .ProcessImgCoding {
+    display: block;
+    margin-left: auto;
+    width: 80%;
+ }
+
+ .ProcessImgCoding2 {
+    display: block;
+    margin-right: auto;
+    width: 80%;
+ }
+
+ em {
+    font-size: 17px;
+ }
